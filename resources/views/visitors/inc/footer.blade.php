@@ -9,7 +9,7 @@
             <div class="footer-content">
                 <div class="footer-logo"><a href="{{ config('app.url') }}"><img src="{{ config('app.url') }}/assets/images/Opera-Events-Logo.png" alt=""></a></div>
                 <ul class="footer-nav">
-                    <<li><a href="{{route('index')}}">Home</a></li>
+                    <li><a href="{{route('index')}}">Home</a></li>
                                 <li><a href="{{ route('category') }}">Category</a></li>
                                 <li><a href="{{ route('terms') }}">Terms and Conditions</a></li>
                                 <li><a href="{{ route('registration') }}">Registration</a></li>
