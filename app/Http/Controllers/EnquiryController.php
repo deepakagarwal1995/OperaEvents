@@ -17,7 +17,7 @@ class EnquiryController extends Controller
                 $destinationPath = 'public/images';
                 $imageName = time() . '.' . $request->image->extension();
                 $request->image->storeAs($destinationPath, $imageName);
-                $enquiry->image = $imageName;
+                $enquiry->image = 'images/'.$imageName;
             }
 
             // Assign other request data to the enquiry instance
