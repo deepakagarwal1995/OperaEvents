@@ -47,3 +47,10 @@ Route::get('migrate', function () {
     Artisan::call('cache:clear');
     Artisan::call('migrate');
 });
+
+Route::get('/storage-link', function () {
+    $target = storage_path('app/public');
+    $link = public_path('/storage');
+    echo symlink($target, $link);
+    // echo "symbolic link created successfully";
+});
