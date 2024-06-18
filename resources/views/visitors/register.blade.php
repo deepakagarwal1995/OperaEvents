@@ -275,10 +275,10 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <label>Any criminal History ?</label>
-                                        <input type="text" name="criminal" >
+                                        <input type="text" name="criminal">
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
-                                        <select name="profile" id="" class="form-group" >
+                                        <select name="profile" id="" class="form-group">
                                             <option selected disabled>Select Profile Platform</option>
                                             <option>Profile Id on Facebook</option>
                                             <option>Profile Id on TikTok
@@ -296,11 +296,11 @@
 
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <label>Profile Id on Facebook</label>
-                                        <input type="text" name="facebook" >
+                                        <input type="text" name="facebook">
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <label>Profile Id on TikTok</label>
-                                        <input type="text" name="tiktok" >
+                                        <input type="text" name="tiktok">
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <label>Profile Id on Instagram</label>
@@ -308,19 +308,19 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <label>Profile Id on YouTube</label>
-                                        <input type="text" name="yt" >
+                                        <input type="text" name="yt">
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <label>Profile Id on Snapchat</label>
-                                        <input type="text" name="sc" >
+                                        <input type="text" name="sc">
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <label>Profile Id on LinkedIn</label>
-                                        <input type="text" name="linkedin" >
+                                        <input type="text" name="linkedin">
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <label>Mention total followers/like of choosed platform</label>
-                                        <input type="text" name="total" >
+                                        <input type="text" name="total">
                                     </div>
                                     <hr>
                                     <div class="col-lg-12 col-sm-12" style="font-size: 1rem;">
