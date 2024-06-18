@@ -36,9 +36,9 @@ Route::post('/enquiry', [EnquiryController::class, 'store'])->name('enquiry');
 
 Route::get('/thank-you', [EnquiryController::class, 'thanku'])->name('thanku');
 
-Route::group(['prefix' => 'admin'], function () {
-    Voyager::routes();
-});
+// Route::group(['prefix' => 'admin'], function () {
+//     Voyager::routes();
+// });
 
 Route::get('migrate', function () {
     Artisan::call('view:clear');
