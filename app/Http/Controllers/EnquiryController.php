@@ -25,7 +25,14 @@ class EnquiryController extends Controller
 
             // Save the enquiry instance to the database
             $enquiry->save();
+
+            return redirect()->route('thanku');
         } catch (\Exception $e) {
         }
+    }
+
+    public function thanku(){
+        $name = Enquiry::latest()->first();
+        return view('visitors.thanku',compact('name'));
     }
 }

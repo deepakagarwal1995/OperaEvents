@@ -26,12 +26,13 @@ Route::get('/terms', function () {
 Route::get('/registration', function () {
     return view('visitors.register');
 })->name('registration');
-
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::post('/enquiry',[EnquiryController::class, 'store'])->name('enquiry');
+Route::post('/enquiry', [EnquiryController::class, 'store'])->name('enquiry');
+
+Route::get('/thank-you', [EnquiryController::class, 'thanku'])->name('thanku');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

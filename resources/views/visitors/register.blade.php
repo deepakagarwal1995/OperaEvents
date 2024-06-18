@@ -272,7 +272,7 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <label>Any criminal History ?</label>
-                                        <input type="text" name="criminal" required="">
+                                        <input type="text" name="criminal" >
                                     </div>
                                     <select name="profile" id="" class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <option selected disabled>Select Profile Platform</option>
@@ -290,7 +290,7 @@
                                     </select>
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <label>Mention total followers/like of choosed platform</label>
-                                        <input type="text" name="total" required="">
+                                        <input type="text" name="total" >
                                     </div>
                                     <hr>
                                     <div class="col-lg-12 col-sm-12" style="font-size: 1rem;">
@@ -298,23 +298,23 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <label>Link 1</label>
-                                        <input type="text" name="link1" required="">
+                                        <input type="text" name="link1">
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <label>Link 2</label>
-                                        <input type="text" name="link2" required="">
+                                        <input type="text" name="link2">
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <label>Link 3</label>
-                                        <input type="text" name="link3" required="">
+                                        <input type="text" name="link3">
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <label>Link 4</label>
-                                        <input type="text" name="link4" required="">
+                                        <input type="text" name="link4">
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <label>Link 5</label>
-                                        <input type="text" name="link5" required="">
+                                        <input type="text" name="link5">
                                     </div>
                                     <hr>
                                     <div class="col-lg-12 col-sm-12 form-group">
