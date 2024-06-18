@@ -40,6 +40,7 @@
         select {
             position: relative;
             display: block;
+            width: 100%;
             font-size: 15px;
             color: #222222;
             line-height: 18px;
@@ -151,117 +152,119 @@
                                         <label>DOB</label>
                                         <input type="text" name="dob" required="">
                                     </div>
-                                    <select name="category" id="" class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <select name="category" id="" class="form-group">
 
-                                        <option selected disabled>Select Category</option>
-                                        <option>BEST USE OF FACEBOOK</option>
-                                        <option>BEST USE OF INSTAGRAM
-                                        </option>
-                                        <option>BEST USE OF YOUTUBE
-                                        </option>
-                                        <option>BEST USE OF TIKTOK
-                                        </option>
-                                        <option>BEST USE OF SNAPCHAT
-                                        </option>
-                                        <option>BEST USE OF LINKEDIN
-                                        </option>
-                                        <option>BEST SOCIAL INFLUENCER CAMPAIGN
-                                        </option>
-                                        <option>MOST IMPACTFUL SOCIAL MEDIA CAMPAIGN
-                                        </option>
-                                        <option>RISING STAR AWARD
-                                        </option>
-                                        <option>PODCASTER OF THE YEAR
-                                        </option>
-                                        <option>CONTENT CREATOR OF THE YEAR
-                                        </option>
-                                        <option>Best reel in TikTok
-                                        </option>
-                                        <option>Best reel in Facebook
-                                        </option>
-                                        <option>Best Reel in Instagram
-                                        </option>
-                                        <option>most popular video in YouTube
-                                        </option>
-                                        <option>Best Actor Male (TikTok)
-                                        </option>
-                                        <option>Best Actor Female (TikTok)
-                                        </option>
-                                        <option>Most Popular Male (Facebook)
-                                        </option>
-                                        <option>Most Popular Female (Facebook)
-                                        </option>
-                                        <option>Most Popular Male (Tiktok)
-                                        </option>
-                                        <option>Most Popular Female (Tiktok)
-                                        </option>
-                                        <option>Most Popular Male (Insta)
-                                        </option>
-                                        <option>Most Popular Female (Insta)
-                                        </option>
-                                        <option>Best Male Dancer on TikTok
-                                        </option>
-                                        <option>Best Female Dancer on TikTok
-                                        </option>
-                                        <option>Best Male Dancer on Facebook
-                                        </option>
-                                        <option>Best Female Dancer on Facebook
-                                        </option>
-                                        <option>Best Male dancer on Insta
-                                        </option>
-                                        <option>Best Female Dancer on Insta
-                                        </option>
-                                        <option>Best Male Dancer on Youtube
-                                        </option>
-                                        <option>Best Female Dancer on YouTube
-                                        </option>
-                                        <option>EMERGING HAIR INFLUENCER OF THE YEAR
-                                        </option>
-                                        <option>EMERGING MAKEUP INFLUENCER OF THE YEAR
-                                        </option>
-                                        <option>CREATIVE MAKEUP INFLUENCER OF THE YEAR
-                                        </option>
-                                        <option>INFLUENCER BEAUTY BRAND OF THE YEAR
-                                        </option>
-                                        <option>HAIR INFLUENCER OF THE YEAR
-                                        </option>
-                                        <option>MAKEUP INFLUENCER OF THE YEAR
-                                        </option>
-                                        <option>TUTORIALIST INFLUENCER OF THE YEAR
-                                        </option>
-                                        <option>EMERGING FASHION INFLUENCER OF THE YEAR
-                                        </option>
-                                        <option>CREATIVE FASHION INFLUENCER OF THE YEAR
-                                        </option>
-                                        <option>FASHION TREND INFLUENCER OF THE YEAR
-                                        </option>
-                                        <option>FASHION DESIGN INFLUENCER OF THE YEAR
-                                        </option>
-                                        <option>FASHION INFLUENCER OF THE YEAR
-                                        </option>
-                                        <option>EMERGING FITNESS INFLUENCER OF THE YEAR
-                                        </option>
-                                        <option>FITNESS INFLUENCER OF THE YEAR
-                                        </option>
-                                        <option>WELLNESS INFLUENCER OF THE YEAR
-                                        </option>
-                                        <option>FEMALE FITNESS INFLUENCER OF THE YEAR
-                                        </option>
-                                        <option>MALE FITNESS INFLUENCER OF THE YEAR
-                                        </option>
-                                        <option>EMERGING LIFESTYLE INFLUENCER OF THE YEAR
-                                        </option>
-                                        <option>FOODIE INFLUENCER OF THE YEAR
-                                        </option>
-                                        <option>TRAVEL INFLUENCER OF THE YEAR
-                                        </option>
-                                        <option>LIFESTYLE INFLUENCER OF THE YEAR
-                                        </option>
-                                        <option>Most Popular Photographer on Social Media
-                                        </option>
-                                        <option>Most Popular Motivational Speaker on Social Media
-                                        </option>
-                                    </select>
+                                            <option selected disabled>Select Category</option>
+                                            <option>BEST USE OF FACEBOOK</option>
+                                            <option>BEST USE OF INSTAGRAM
+                                            </option>
+                                            <option>BEST USE OF YOUTUBE
+                                            </option>
+                                            <option>BEST USE OF TIKTOK
+                                            </option>
+                                            <option>BEST USE OF SNAPCHAT
+                                            </option>
+                                            <option>BEST USE OF LINKEDIN
+                                            </option>
+                                            <option>BEST SOCIAL INFLUENCER CAMPAIGN
+                                            </option>
+                                            <option>MOST IMPACTFUL SOCIAL MEDIA CAMPAIGN
+                                            </option>
+                                            <option>RISING STAR AWARD
+                                            </option>
+                                            <option>PODCASTER OF THE YEAR
+                                            </option>
+                                            <option>CONTENT CREATOR OF THE YEAR
+                                            </option>
+                                            <option>Best reel in TikTok
+                                            </option>
+                                            <option>Best reel in Facebook
+                                            </option>
+                                            <option>Best Reel in Instagram
+                                            </option>
+                                            <option>most popular video in YouTube
+                                            </option>
+                                            <option>Best Actor Male (TikTok)
+                                            </option>
+                                            <option>Best Actor Female (TikTok)
+                                            </option>
+                                            <option>Most Popular Male (Facebook)
+                                            </option>
+                                            <option>Most Popular Female (Facebook)
+                                            </option>
+                                            <option>Most Popular Male (Tiktok)
+                                            </option>
+                                            <option>Most Popular Female (Tiktok)
+                                            </option>
+                                            <option>Most Popular Male (Insta)
+                                            </option>
+                                            <option>Most Popular Female (Insta)
+                                            </option>
+                                            <option>Best Male Dancer on TikTok
+                                            </option>
+                                            <option>Best Female Dancer on TikTok
+                                            </option>
+                                            <option>Best Male Dancer on Facebook
+                                            </option>
+                                            <option>Best Female Dancer on Facebook
+                                            </option>
+                                            <option>Best Male dancer on Insta
+                                            </option>
+                                            <option>Best Female Dancer on Insta
+                                            </option>
+                                            <option>Best Male Dancer on Youtube
+                                            </option>
+                                            <option>Best Female Dancer on YouTube
+                                            </option>
+                                            <option>EMERGING HAIR INFLUENCER OF THE YEAR
+                                            </option>
+                                            <option>EMERGING MAKEUP INFLUENCER OF THE YEAR
+                                            </option>
+                                            <option>CREATIVE MAKEUP INFLUENCER OF THE YEAR
+                                            </option>
+                                            <option>INFLUENCER BEAUTY BRAND OF THE YEAR
+                                            </option>
+                                            <option>HAIR INFLUENCER OF THE YEAR
+                                            </option>
+                                            <option>MAKEUP INFLUENCER OF THE YEAR
+                                            </option>
+                                            <option>TUTORIALIST INFLUENCER OF THE YEAR
+                                            </option>
+                                            <option>EMERGING FASHION INFLUENCER OF THE YEAR
+                                            </option>
+                                            <option>CREATIVE FASHION INFLUENCER OF THE YEAR
+                                            </option>
+                                            <option>FASHION TREND INFLUENCER OF THE YEAR
+                                            </option>
+                                            <option>FASHION DESIGN INFLUENCER OF THE YEAR
+                                            </option>
+                                            <option>FASHION INFLUENCER OF THE YEAR
+                                            </option>
+                                            <option>EMERGING FITNESS INFLUENCER OF THE YEAR
+                                            </option>
+                                            <option>FITNESS INFLUENCER OF THE YEAR
+                                            </option>
+                                            <option>WELLNESS INFLUENCER OF THE YEAR
+                                            </option>
+                                            <option>FEMALE FITNESS INFLUENCER OF THE YEAR
+                                            </option>
+                                            <option>MALE FITNESS INFLUENCER OF THE YEAR
+                                            </option>
+                                            <option>EMERGING LIFESTYLE INFLUENCER OF THE YEAR
+                                            </option>
+                                            <option>FOODIE INFLUENCER OF THE YEAR
+                                            </option>
+                                            <option>TRAVEL INFLUENCER OF THE YEAR
+                                            </option>
+                                            <option>LIFESTYLE INFLUENCER OF THE YEAR
+                                            </option>
+                                            <option>Most Popular Photographer on Social Media
+                                            </option>
+                                            <option>Most Popular Motivational Speaker on Social Media
+                                            </option>
+                                        </select>
+                                    </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <label>Mobile</label>
                                         <input type="text" name="mobile" required="">
@@ -274,20 +277,47 @@
                                         <label>Any criminal History ?</label>
                                         <input type="text" name="criminal" >
                                     </div>
-                                    <select name="profile" id="" class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                        <option selected disabled>Select Profile Platform</option>
-                                        <option>Profile Id on Facebook</option>
-                                        <option>Profile Id on TikTok
-                                        </option>
-                                        <option>Profile Id on Insta
-                                        </option>
-                                        <option>Profile Id on YouTube
-                                        </option>
-                                        <option>Profile Id on Snapchat
-                                        </option>
-                                        <option>Profile Id on LinkedIn
-                                        </option>
-                                    </select>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <select name="profile" id="" class="form-group" >
+                                            <option selected disabled>Select Profile Platform</option>
+                                            <option>Profile Id on Facebook</option>
+                                            <option>Profile Id on TikTok
+                                            </option>
+                                            <option>Profile Id on Insta
+                                            </option>
+                                            <option>Profile Id on YouTube
+                                            </option>
+                                            <option>Profile Id on Snapchat
+                                            </option>
+                                            <option>Profile Id on LinkedIn
+                                            </option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                        <label>Profile Id on Facebook</label>
+                                        <input type="text" name="facebook" >
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                        <label>Profile Id on TikTok</label>
+                                        <input type="text" name="tiktok" >
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                        <label>Profile Id on Instagram</label>
+                                        <input type="text" name="insta">
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                        <label>Profile Id on YouTube</label>
+                                        <input type="text" name="yt" >
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                        <label>Profile Id on Snapchat</label>
+                                        <input type="text" name="sc" >
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                        <label>Profile Id on LinkedIn</label>
+                                        <input type="text" name="linkedin" >
+                                    </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                                         <label>Mention total followers/like of choosed platform</label>
                                         <input type="text" name="total" >
