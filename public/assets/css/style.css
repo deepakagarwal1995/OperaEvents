@@ -5887,8 +5887,7 @@ img{
 .faq-form .form-group input[type="text"],
 .faq-form .form-group input[type="email"],
 .faq-form .form-group input[type="url"],
-.faq-form .form-group textarea,
-.faq-form .form-group select{
+.faq-form .form-group textarea{
 	position: relative;
     display: block;
     width: 100%;
@@ -11109,3 +11108,5 @@ img{
     height: 540px;
     margin-bottom: -10px;
 }
+
+

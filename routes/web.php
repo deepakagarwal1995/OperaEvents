@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\EnquiryController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -30,6 +31,7 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::post('/enquiry',[EnquiryController::class, 'store'])->name('enquiry');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
