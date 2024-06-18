@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\EnquiryController;
 use Illuminate\Support\Facades\Route;
+use TCG\Voyager\Facades\Voyager;
 
 /*
 |--------------------------------------------------------------------------
